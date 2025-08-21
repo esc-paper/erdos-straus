@@ -1,4 +1,5 @@
-// g++ -o checker Checker.cpp -fopenmp -lgmp -lgmpxx -O3
+// Compile: g++ -o checker Checker.cpp -fopenmp -lgmp -lgmpxx -O3
+// Run with: ./checker missed-numbers.txt <first batch> <last batch>
 
 #include <iostream>
 #include <fstream>
