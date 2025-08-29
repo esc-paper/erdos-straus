@@ -8,6 +8,7 @@ def read_data(path):
             res.append(tuple(map(int, line.strip().split(","))))
     return res
 
+
 def create_plot(output_path, plot_type="semi-log", input_path="solution_counting-full.csv"):
     # Read data from .csv provided
     raw_data = read_data(input_path)
